@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: gradient;
+    background: linear-gradient(0deg, #000, #272727);
 }
 .btn {
     display: flex;
