@@ -8,4 +8,5 @@ button.addEventListener("click", () => {
         .then(res => res.json())
         .then(data => p.innerText = data.value);
     document.body.appendChild(p)
+    setTimeout(() => { p.remove() }, 30000)
 });
