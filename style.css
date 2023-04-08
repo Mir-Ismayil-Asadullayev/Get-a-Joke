@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
+    flex-flow: column wrap;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(0deg, #000, #272727);
